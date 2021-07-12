@@ -23,9 +23,10 @@ Sample Output 0
 _________________________________________________________________________________
 Python Code:
 =================================================================================
-left,right,k=map(int,input().strip().split())
+```left,right,k=map(int,input().strip().split())
 count=0
 for i in range(left,right+1):
     if i%k==0:
         count+=1
 print(count)
+```
