@@ -29,7 +29,7 @@ Both 14 and 7 are valid answers, but since 7 is the smallest, the required array
 _________________________________________________________________________________
 Python Code:
 =================================================================================
-n=int(input())
+```n=int(input())
 A=list(map(int,input().strip().split()))
 temp=sorted(A)
 for i in range(len(A)):
@@ -45,3 +45,4 @@ if flag==True:
     print(A.index(temp[i]))
 else:
     print(-1)
+```
