@@ -8,7 +8,7 @@ It is guaranteed that he can always buy some candies that costs x for any possib
 Your task is to say the maximum number of points Chintu can spend if he buys candies optimally so that he can win the game.
 Input Format
 The first line of the input contains one integer t indicates number of testcases.
-The next t lines describe test cases. Each test case is given on a separate line and consists of one integer s — the number of Points Chintu initially has.
+The next t lines describe test cases. Each test case is given on a separate line and consists of one integer s â€” the number of Points Chintu initially has.
 _________________________________________________________________________________
 Constraints
 ---------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ For example, if Chintu has s=19 Points then the maximum number of Points he can 
 _________________________________________________________________________________
 Python Code:
 =================================================================================
-li=[int(input()) for i in range(int(input()))]
+```li=[int(input()) for i in range(int(input()))]
 for i in li:
     spend=0
     while i>9:
@@ -54,3 +54,4 @@ for i in li:
         spend=spend+(q*10)
     print(spend+i)
 
+```
