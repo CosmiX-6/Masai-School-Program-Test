@@ -29,7 +29,7 @@ Hence he needed 6 steps to reach at position 26.
 _________________________________________________________________________________
 Python Code:
 =================================================================================
-n=int(input())
+```n=int(input())
 sum=0
 for i in range(5,0,-1):
     if n>0:
@@ -38,3 +38,4 @@ for i in range(5,0,-1):
     else:
         break
 print(sum)
+```
